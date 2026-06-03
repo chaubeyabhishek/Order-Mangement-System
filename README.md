@@ -1,12 +1,13 @@
-<<<<<<< HEAD
-# MERN Role-Based Access & Unit Conversion App
+# MERN Inventory & Order Management System
 
-This repository contains a sample MERN stack application with:
+This repository contains a comprehensive MERN stack application with:
 - Express + MongoDB backend using MVC pattern
-- React frontend with role-based access controls
+- React frontend with role-based access controls and modern UI
 - Inventory and unit pricing support for `g`, `kg`, `L`, `mL`, and `unit`
 - INR price display across the UI
 - JWT authentication for `admin` and `user` roles
+- Premium dark theme with glassmorphism design
+- Fully responsive layout
 
 ## Data Precision
 - This MERN app uses MongoDB `Decimal128` for product quantity and pricing so it supports high decimal precision and large values safely.
@@ -23,6 +24,13 @@ This repository contains a sample MERN stack application with:
    npm run dev
    ```
 
+## Features
+- **Product Management**: Create, update, delete products with pricing and inventory tracking
+- **Order System**: Users can request orders, admins can approve/disapprove/delete
+- **Inventory Units**: Support for grams, kilograms, liters, milliliters, and units
+- **Role-Based Access**: Admin and user roles with separate dashboards
+- **Premium UI**: Modern dark theme with glassmorphism and smooth animations
+
 ## Backend
 - `backend/app.js`
 - `backend/server.js`
@@ -36,6 +44,5 @@ This repository contains a sample MERN stack application with:
 - `client/src`
 - `client/src/components`
 - `client/src/services`
-=======
-# Order-Mangement-System
->>>>>>> dff8ae5de8cd3ecc413c507b4b9f60f4127c1daa
+- `client/src/index.css` - Premium dark theme styles
+
