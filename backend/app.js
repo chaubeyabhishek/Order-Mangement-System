@@ -8,7 +8,13 @@ const errorHandler = require('./middleware/errorMiddleware');
 const app = express();
 app.use(express.json());
 app.use(cors());
-
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://your-frontend.vercel.app"
+  ],
+  credentials: true
+}));
 app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/orders', orderRoutes);
