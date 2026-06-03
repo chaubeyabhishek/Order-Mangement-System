@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MERN Role-Based Access & Unit Conversion App
 
 This repository contains a sample MERN stack application with:
@@ -35,3 +36,6 @@ This repository contains a sample MERN stack application with:
 - `client/src`
 - `client/src/components`
 - `client/src/services`
+=======
+# Order-Mangement-System
+>>>>>>> dff8ae5de8cd3ecc413c507b4b9f60f4127c1daa
