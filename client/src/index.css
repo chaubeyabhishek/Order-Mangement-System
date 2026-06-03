@@ -121,6 +121,19 @@ body {
 .input:focus, .select:focus, .textarea:focus { box-shadow: 0 8px 30px rgba(59,130,246,0.12); border-color: rgba(59,130,246,0.18); }
 .textarea { min-height:120px; resize:vertical; }
 
+/* Ensure native select options are readable in dark theme */
+.select option {
+  background: var(--bg-700);
+  color: var(--text);
+}
+
+/* Improve select appearance on dark backgrounds */
+.select {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  appearance: menulist;
+}
+
 /* Hero */
 .hero { display:flex; align-items:center; justify-content:space-between; padding: 48px 0; gap:24px; }
 .hero-inner { flex:1; }
